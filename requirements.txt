@@ -1,0 +1,1 @@
+tuic://2ff50c7b-b16d-49ef-9580-0d36da7f1753:2ff50c7b-b16d-49ef-9580-0d36da7f1753@82.118.230.114:61910?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#tu5-root-new
