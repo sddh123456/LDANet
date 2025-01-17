@@ -1,15 +1,16 @@
+
 # Color Harmony Net
 
-一个基于深度学习的图像颜色和谐度评估模型。
+A deep learning-based model for evaluating the color harmony of images.
 
-## 功能特点
+## Features
 
-- 使用 LDA 进行颜色主题建模
-- 支持 RGB 和红外图像的特征提取
-- 实时可视化训练过程
-- 提供预训练模型
+-   Uses LDA for color theme modeling
+-   Supports feature extraction for both RGB and infrared images
+-   Real-time visualization of the training process
+-   Provides pre-trained models
 
-![不同数据集中图像组的示意图](./image/Images%20of%20different%20datasets.png)
+![Illustrations of image groups in different datasets](./image/Images%20of%20different%20datasets.png)
 
 **Table 1:** Performance Comparison on Different Datasets
 
@@ -21,53 +22,56 @@
 | NIQE    | 0.855     | 0.832      | 0.165     | 0.835      | 0.825       | 0.180      | 0.840         | 0.838          | 0.170         |
 | LDANet  | **0.915** | **0.920**  | **0.105** | **0.895**  | **0.887**   | **0.115**  | **0.905**     | **0.910**      | **0.095**     |
 
-## 安装
+## Installation
 
-1. 克隆仓库:
-```bash
-git clone https://github.com/your-username/color-harmony-net.git
-cd color-harmony-net
-```
+1. Clone the repository:
 
-2. 安装依赖:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    git clone https://github.com/your-username/color-harmony-net.git
+    cd color-harmony-net
+    ```
 
-## 使用方法
+2. Install the dependencies:
 
-### 训练模型
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+### Train the Model
 
 ```bash
 python train.py
 ```
 
-### 参数配置
+### Configuration
 
-在 `configs/config.py` 中设置:
+Set parameters in `configs/config.py`:
 
+## Visualization
 
-## 可视化
+During training, the following will be generated:
 
-训练过程中会生成:
-- 损失曲线
-- MSE 曲线
-- 颜色分布图
-- LDA 主题分布
+-   Loss curve
+-   MSE curve
+-   Color distribution map
+-   LDA topic distribution
 
-## 预训练模型
+## Pre-trained Models
 
-提供以下预训练模型:
-- `models/lda_model.pkl`
+The following pre-trained models are provided:
 
-## 引用
+-   `models/lda_model.pkl`
 
-如果您使用了本项目，请引用:
+## Citation
 
-投稿中
+If you use this project, please cite:
 
-## 联系方式
+Paper under review.
 
-- 作者: Dian Sheng
-- Email: shengdian970@163.com
+## Contact
 
+-   Author: Dian Sheng
+-   Email: shengdian970@163.com
+```
